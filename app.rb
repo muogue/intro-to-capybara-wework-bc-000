@@ -1,6 +1,6 @@
 class Application < Sinatra::Base
   # Write your code here!
   get "/" do
-    "Welcome!"
+    erb :index
   end
 end
